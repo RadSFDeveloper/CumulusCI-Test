@@ -12,9 +12,9 @@ tasks:
 
 flows:
     ci_test_concurrency:
-        description: A flow that does nothing but sleep for a minute.  Used to test concurrency on CI systems
+        description: A flow that does nothing but sleep.  Used to test concurrency on CI systems
         tasks:
             1:
                 task: util_sleep
                 options:
-                    seconds: 60
+                    seconds: 90
