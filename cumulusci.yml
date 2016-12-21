@@ -17,4 +17,4 @@ flows:
             1:
                 task: util_sleep
                 options:
-                    seconds: 90
+                    seconds: 60
