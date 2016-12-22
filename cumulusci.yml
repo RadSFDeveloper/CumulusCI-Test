@@ -18,3 +18,11 @@ flows:
                 task: util_sleep
                 options:
                     seconds: 120
+
+    ci_quick_test:
+        description: A flow that does nothing but sleep for 1 second.  Use to test CI systems
+        tasks:
+            1:
+                task: util_sleep
+                options:
+                    seconds: 1
