@@ -1,10 +1,6 @@
 @isTest
 public with sharing class SampleClass_TEST {
 
-    public static testmethod void failingTest() {
-        System.assertEquals(True, False);
-    }
-
     public static testmethod void fillInFirstNameTest() {
     	SampleClass myClass = new SampleClass();
     	Contact contact = new Contact(LastName = 'Testerson');
